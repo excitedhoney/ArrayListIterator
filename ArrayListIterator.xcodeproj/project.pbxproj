@@ -13,6 +13,7 @@
 		E7520D4E1DC33FA30093334F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7520D4C1DC33FA30093334F /* Main.storyboard */; };
 		E7520D501DC33FA30093334F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7520D4F1DC33FA30093334F /* Assets.xcassets */; };
 		E7520D531DC33FA30093334F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7520D511DC33FA30093334F /* LaunchScreen.storyboard */; };
+		E7520D5C1DC33FBA0093334F /* ArrayListIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = E7520D5B1DC33FBA0093334F /* ArrayListIterator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		E7520D4F1DC33FA30093334F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7520D521DC33FA30093334F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7520D541DC33FA30093334F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7520D5A1DC33FBA0093334F /* ArrayListIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayListIterator.h; sourceTree = "<group>"; };
+		E7520D5B1DC33FBA0093334F /* ArrayListIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayListIterator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				E7520D511DC33FA30093334F /* LaunchScreen.storyboard */,
 				E7520D541DC33FA30093334F /* Info.plist */,
 				E7520D431DC33FA30093334F /* Supporting Files */,
+				E7520D5A1DC33FBA0093334F /* ArrayListIterator.h */,
+				E7520D5B1DC33FBA0093334F /* ArrayListIterator.m */,
 			);
 			path = ArrayListIterator;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				E7520D4B1DC33FA30093334F /* ViewController.m in Sources */,
 				E7520D481DC33FA30093334F /* AppDelegate.m in Sources */,
 				E7520D451DC33FA30093334F /* main.m in Sources */,
+				E7520D5C1DC33FBA0093334F /* ArrayListIterator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
